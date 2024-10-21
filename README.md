@@ -1,6 +1,8 @@
 Caracterización de señales electricas (Electrical load profiling)
 ===
 
+Este repositorio es con el fin de concentrar la información del trabajo desarrollado en la caracterización de perfiles de carga eléctrica, empleando un análisis EDA como parte exploratoria del proyecto, en el la carpeta doc podran encontrar el readme con la justificación de la problematica actual.
+
 
 # Estructura de repositorio (Repository structure)
 
