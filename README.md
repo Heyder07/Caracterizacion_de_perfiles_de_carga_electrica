@@ -1,6 +1,6 @@
 # Caracterización de señales electricas (Electrical load profiling)
 
-
+Actualmente con la creciente integración de sensores en las máquinas y sistemas eléctricos se estan recolectando datos que antes no se tenían, estos datos abren un nuevo paradigma para el análisis de la información inherente de los sistemas, que pueden ser empleados y explotados en el análisis exploratorio para la toma de decisiones en distintos campos de aplicación como pueden ser: la predicción de la demanda, detección de disturbios y caracterización de los perfiles de carga eléctrica.
 
 
 # Análisis EDA (Exploratory data analysis)
