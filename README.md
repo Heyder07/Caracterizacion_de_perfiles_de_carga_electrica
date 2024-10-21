@@ -3,7 +3,7 @@ Caracterización de señales electricas (Electrical load profiling)
 
 Este repositorio es con el fin de concentrar la información del trabajo desarrollado en la caracterización de perfiles de carga eléctrica, empleando un análisis EDA como parte exploratoria del proyecto, en el la carpeta doc podran encontrar el readme con la justificación de la problematica actual.
 
-El presente trabajo forma parte del desarrollo de un proyecto de investigación en el Maestria en Ciencias de Datos de la Universidad de Guadalajara. 
+El presente trabajo forma parte del desarrollo de un proyecto de investigación en el Maestria en Ciencias de Datos de la Universidad de Guadalajara por el alumno Eyder Kinil Cervera.
 
 Se busca el amplio uso de las buenas practicas de los repositorios como se menciona en el paper Wilson, G., Bryan, J., Cranston, K., et al. (2016). "Good Enough Practices in Scientific Computing". A fin de homologar y facilitar el trabajo colaborativo.
 
