@@ -8,4 +8,4 @@ Actualmente con la creciente integración de sensores en las máquinas y sistema
 Proponer una metología basada en un modelo matemático que permita abordar la escalabilidad y desfase de los datos en la colección de las series de tiempo de las mediciones eléctricas para la clasificación y agrupamiento de las señales, que permitan un análisis y la toma de decisiones con la información inherente en el consumo eléctrico de los usuarios.
 
 ## Justificación
-A
+Si se caracterizan los perfiles de carga eléctrica mediante técnicas de agrupamiento es posible agilizar la toma de decisiones en la optimización de la demanda eléctrica para la reducción del costo de las tarifas eléctricas en un % significativo de ahorro.
