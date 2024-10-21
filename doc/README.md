@@ -1,1 +1,10 @@
-Carpeta con archivos de texto
+Caracterización de perfiles de carga eléctrica
+===
+
+Problemática
+
+
+Objetivo
+
+
+Justificación
