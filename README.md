@@ -17,21 +17,47 @@ Se integra Streamlit al código del análisis EDA junto a la librería de Altair
 
 La estructura que queremos que tenga este repositorio es la siguiente:
 
-    ├── LICENSE           <- MIT License.  
+    ├── data                                          <- Carpeta que contiene la base de datos que se utilizó para el análisis EDA.
+    │   ├── README.md                                 <- Descripción general de esta información.
+    │   └── summer.csv                                <- Dataset utilizado para el desarrollo del proyecto.
+    │
+    ├── doc                                           <- Carpeta con el archivo markdown con el avance realizado sobre (i) la problemática, (ii) el objetivo y (iii) la justificación.   
+    |   └── README.md                                 <- Descripción general de la tesis: (i) la problemática, (ii) el objetivo y (iii) la justificación.
     |  
-    ├── README.md         <- Main Readme file with the description of the project.  
+    ├── results                                       <- Carpeta con el archivo README.md sobre los resultados del análisis EDA realizado.
+    |   ├── BoxplotG1.png                             <- Imagen que muestra la dispersión del grupo 1.
+    |   ├── BoxplotG2.png                             <- Imagen que muestra la dispersión del grupo 2.
+    |   ├── Centroides.png                            <- Imagen que muestra la señal que resulta de agrupar los grupos.
+    |   ├── Cluster_1.png                             <- Imagen que muestra la distribución del clúster 1 con Matplotlib.
+    |   ├── Cluster_2.png                             <- Imagen que muestra la distribución del clúster 2 con Matplotlib.
+    |   ├── Cluster_3.png                             <- Imagen que muestra la distribución del clúster 3 con Matplotlib.
+    |   ├── Cluster_4.png                             <- Imagen que muestra la distribución del clúster 4 con Matplotlib.
+    |   ├── Cluster_5.png                             <- Imagen que muestra la distribución del clúster 5 con Matplotlib.
+    |   ├── Cluster_6.png                             <- Imagen que muestra la distribución del clúster 6 con Matplotlib.
+    |   ├── Cluster_7.png                             <- Imagen que muestra la distribución del clúster 7 con Matplotlib.
+    |   ├── Cluster_8.png                             <- Imagen que muestra la distribución del clúster 8 con Matplotlib.
+    |   ├── README.md                                 <- Resultados del análisis EDA realizado.
+    |   ├── Streamlit_Cluster_0.png                   <- Imagen que muestra la distribución del clúster 0 con Altair.
+    |   ├── Streamlit_Cluster_1.png                   <- Imagen que muestra la distribución del clúster 1 con Altair.
+    |   ├── Streamlit_Cluster_2.png                   <- Imagen que muestra la distribución del clúster 2 con Altair.
+    |   ├── Streamlit_Cluster_3.png                   <- Imagen que muestra la distribución del clúster 3 con Altair.
+    |   ├── Streamlit_Cluster_4.png                   <- Imagen que muestra la distribución del clúster 4 con Altair.
+    |   ├── Streamlit_Cluster_5.png                   <- Imagen que muestra la distribución del clúster 5 con Altair.
+    |   ├── Streamlit_Cluster_6.png                   <- Imagen que muestra la distribución del clúster 6 con Altair.                                     
+    |   └── Streamlit_Cluster_7.png                   <- Imagen que muestra la distribución del clúster 7 con Altair.
     |  
-    ├── CONTRIBUTING.md   <- Steps yo contribute to the project.  
+    ├── src                                           <- Carpeta con Jupyter notebook con el análisis EDA y Archivo README.md.
+    |   ├── APP_Proyecto_EDA.py                       <- Aplicación Streamlit con Altair.
+    |   ├── Proyecto_EDA.ipynb                        <- Jupyter notebook con el análisis EDA.
+    │   └── README.md                                 <- Introducción al Jupyter notebook con el análisis EDA y Streamlit.
     |  
-    ├── CITATION.md       <- Way to cite the project.  
+    ├── CITATION.md                                   <- Cita para referenciar el proyecto.  
     |  
-    ├── data              <- Original data bases.  
+    ├── CONTRIBUTING.md                               <- Pasos para los colaboradores que deseen contribuir al proyecto.  
+    | 
+    ├── LICENSE                                       <- MIT License.
     |  
-    ├── doc               <- Archivos de texto.  
-    |  
-    ├── results           <- Clean and analyzes data bases.  
-    |  
-    └── src               <- Coding files.  
+    └── README.md                                     <- Archivo principal con la descripción del proyecto.  
 
 
 Este repositorio tiene el fin de concentrar la información del trabajo desarrollado en la caracterización de perfiles de carga eléctrica, empleando un análisis EDA como parte exploratoria del proyecto. En la carpeta doc podrán encontrar el readme con la justificación de la problemática actual.
