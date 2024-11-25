@@ -129,7 +129,54 @@ def pagina_analisis():
 
     #Visualizamos el dataframe creado a partir del tipo de cliente 1
     st.dataframe(Cliente_1)
+    
+    #Crear graficos con la libería Altair
+    st.markdown(f"## 7. Hacer un gráfico")
+    
+    #Extraemos un solo los valores de consumo del cliente 
+    data = Cliente_1.drop(['Profile Type and Weather Zone','ERC_TRADE_DATE'],axis=1)
+    #Convertimos el dataframe a un array 
+    data_array = data.to_numpy()
 
+    
+    # Título de la aplicación
+    st.markdown("#### Visualización de Perfiles de Carga Eléctrica")
+
+    # Creamos el vector de número de lecturas por día
+    x = np.linspace(1, 96, 96)
+    
+    # Creamos un DataFrame para Altair (transformamos a formato largo)
+    df_altair = pd.DataFrame({
+        'Observación': np.tile(x, len(data)),
+        'Consumo': data_array.flatten(),
+        'Día': np.repeat(np.arange(len(data)), len(x))
+    })
+    # Crear el gráfico con Altair
+    chart = alt.Chart(df_altair).mark_line().encode(
+        x='Observación:Q',
+        y='Consumo:Q',
+        color='Día:N'
+    ).properties(
+        title="Perfiles de carga eléctrica del cliente 1: BUSHILF_COAST",
+        width=800,
+        height=400
+    )
+    # Mostrar el gráfico en Streamlit
+    st.altair_chart(chart, use_container_width=True)
+
+    # Crear el gráfico Boxplot con Altair
+    boxplot = alt.Chart(df_altair).mark_boxplot().encode(
+        x='Día:N',
+        y='Consumo:Q',
+        color='Día:N'
+    ).properties(
+        title="Boxplot de Perfiles de Carga Eléctrica",
+        width=800,
+        height=400
+    )
+
+    # Mostrar el gráfico en Streamlit
+    st.altair_chart(boxplot, use_container_width=True)
 
 # Página de resultados
 def pagina_resultados():
