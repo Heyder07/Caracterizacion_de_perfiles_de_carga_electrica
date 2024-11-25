@@ -9,7 +9,7 @@ Se observa que existentes tendencias de comportamiento en el consumo diario entr
 
 # Integración de Streamlit con Altair
 
-Se integra Streamlit al código del análisis EDA junto a la librería de Altair para integrar gráficos interactivos y poder hacer despliegues para compartir información y poder compartir los resultados del análisis de forma interactiva. Streamlit es un framework open-source que permite crear aplicaciones de forma sencilla y rápida.
+Se integra Streamlit al código del análisis EDA junto a la librería de Altair para integrar gráficos interactivos y poder compartir los resultados del análisis de forma interactiva. Streamlit es un framework open-source que permite crear aplicaciones de forma sencilla y rápida.
 
 
 
