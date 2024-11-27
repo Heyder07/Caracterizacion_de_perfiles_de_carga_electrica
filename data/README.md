@@ -1,1 +1,1 @@
-Carpeta que incluye la base de datos para el desarrollo del proyecto.
+Carpeta que incluye el dataset para el desarrollo del proyecto.
