@@ -1,4 +1,4 @@
-# Definimos las librerias que vamos a utilizar
+# Definimos las librerías que vamos a utilizar
 import streamlit as st
 import altair as alt
 import pandas as pd
@@ -30,7 +30,7 @@ def pagina_inicio():
 
     El análisis y exploración de datos son herramientas poderosas cuando se trabaja con repositorios de información. En este contexto, los enfoques presentados por Peng y Matsui en "The Art of Data Science" (2018), junto con las prácticas colaborativas de GitHub basadas en los lineamientos propuestos por Wilson en "Good Enough Practices in Science Computing" (2016), ofrecen un marco sólido para el trabajo con datos.
 
-    Siguiendo las recomendaciones de estos autores, hemos integrado la plataforma de Streamlit aplicando las buenas prácticas. Esta plataforma open-source permite crear aplicaciones e interfaces web interactivas. Al integrarla con la librería Altair, es posible compartir aplicaciones web interactivas sin la necesidad de tener conocimientos avanzados en desarrollo de frontend, facilitando así el acceso y uso de herramientas visuales interactivas.
+    Siguiendo las recomendaciones de estos autores, hemos integrado la plataforma de Streamlit aplicando las buenas prácticas. Esta plataforma open-source permite crear aplicaciones e interfaces web interactivas. Al integrarla con la librería Altair, es posible compartir aplicaciones web interactivas sin la necesidad de tener conocimientos avanzados en desarrollo de front-end, facilitando así el acceso y uso de herramientas visuales interactivas.
     '''
     
     # Información del Proyecto
@@ -131,7 +131,7 @@ def pagina_analisis():
     # Visualizamos el DataFrame creado a partir del tipo de cliente 1
     st.dataframe(Cliente_1)
     
-    # Sección para gráficos con la libería Altair
+    # Sección para gráficos con la librería Altair
     st.markdown(f"## 7. Hacer un gráfico")
     
     # Extraemos un solo los valores de consumo del cliente 
@@ -208,7 +208,7 @@ def pagina_resultados():
     # Conversión de los datos normalizados a un arreglo
     zscore_array = zscore_df.to_numpy()
     
-    # Definimos los clusters
+    # Definimos los clústers
     model = KMeans(n_clusters=8, max_iter = 100)
 
     # Aplicamos el etiquetado
@@ -220,19 +220,19 @@ def pagina_resultados():
     # Incluimos los modelos generados (hierarchy y kmeans) en el dataset normalizado
     df_k['Cluster_Labels'] = model.labels_
 
-    # Seleccionamos  dinámicamente el número de cluster
-    numero_cluster = st.selectbox("Selecciona el número de cluster", sorted(df_k['Cluster_Labels'].unique()))
+    # Seleccionamos  dinámicamente el número de clúster
+    numero_cluster = st.selectbox("Selecciona el número de clúster", sorted(df_k['Cluster_Labels'].unique()))
 
-    # Filtramos el DataFrame según el cluster seleccionado
+    # Filtramos el DataFrame según el clúster seleccionado
     data_filtrada = df_k[df_k['Cluster_Labels'] == numero_cluster]
 
-    # Verificamos si hay datos para el cluster
+    # Verificamos si hay datos para el clúster
     if data_filtrada.empty:
 
         # Imprimimos un mensaje si no existen datos
-        st.write("No hay datos para el cluster seleccionado.")
+        st.write("No hay datos para el clúster seleccionado.")
 
-    # En caso de que no se halla seleccionado un cluster
+    # En caso de que no se halla seleccionado un clúster
     else:
         
         # Mostramos el DataFrame filtrado
@@ -263,7 +263,7 @@ def pagina_resultados():
             y='Consumo:Q',
             color='Día:N'
         ).properties(
-            title=f"Perfiles de carga eléctrica del Cluster {numero_cluster}",
+            title=f"Perfiles de carga eléctrica del clúster {numero_cluster}",
             width=800,
             height=400
         )
