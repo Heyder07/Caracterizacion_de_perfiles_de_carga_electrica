@@ -5,11 +5,11 @@ Actualmente, con la creciente integración de sensores en las máquinas y sistem
 
 # Análisis EDA (Exploratory data analysis)
 
-Se observa que existentes tendencias de comportamiento en el consumo diario entre los distintos clientes que permiten naturalmente agrupar los datos, se debe tener en cuenta un proceso de normalización para a fin de evitar el agrupamiento por escalas de consumo y aprovechar la dinámica de la señal a fin de poder emplear esa información para determinar el comportamiento en el tiempo (t + 1), con el histórico de información funcionando como buffer o clases a priori de comportamiento.
+Se observa que existentes tendencias de comportamiento en el consumo diario entre los distintos clientes que permiten naturalmente agrupar los datos, se debe tener en cuenta un proceso de normalización a fin de evitar el agrupamiento por escalas de consumo y aprovechar la dinámica de la señal para poder emplear esa información en determinar el comportamiento en el tiempo (t + 1), con el histórico de información funcionando como buffer o clases a priori de comportamiento.
 
 # Integración de Streamlit con Altair
 
-Se integra Streamlit al código del análisis EDA junto a la librería de Altair para integrar gráficos interactivos y poder compartir los resultados del análisis de forma interactiva. Streamlit es un framework open-source que permite crear aplicaciones de forma sencilla y rápida.
+Se integra Streamlit al código del análisis EDA con la librería Altair para gráficos interactivos, con esto poder compartir los resultados del análisis de forma interactiva. Streamlit es un framework open-source que permite crear aplicaciones de forma sencilla y rápida.
 
 
 
