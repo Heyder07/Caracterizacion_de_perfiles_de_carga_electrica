@@ -1,15 +1,15 @@
-# Caracterización de señales electricas (Electrical load profiling)
+# Caracterización de señales eléctricas (Electrical load profiling)
 
 Actualmente, con la creciente integración de sensores en las máquinas y sistemas eléctricos se están recolectando datos que antes no se tenían, estos datos abren un nuevo paradigma para el análisis de la información inherente de los sistemas, que pueden ser empleados y explotados en el análisis exploratorio para la toma de decisiones en distintos campos de aplicación como pueden ser: la predicción de la demanda, detección de disturbios y caracterización de los perfiles de carga eléctrica.
 
 
 # Análisis EDA (Exploratory data analysis)
 
-Se observa que existentes tendencias de comportamiento en el consumo diario entre los distintos clientes que permiten naturalmente agrupar los datos, se debe tener en cuenta un proceso de normalización para a fin de evitar el agrupamiento por escalas de consumo y aprovechar la dinámica de la señal a fin de poder emplear esa información para determinar el comportamiento en el tiempo (t + 1), con el histórico de información funcionando como buffer o clases a priori de comportamiento.
+Se observa que existentes tendencias de comportamiento en el consumo diario entre los distintos clientes que permiten naturalmente agrupar los datos, se debe tener en cuenta un proceso de normalización a fin de evitar el agrupamiento por escalas de consumo y aprovechar la dinámica de la señal para poder emplear esa información en determinar el comportamiento en el tiempo (t + 1), con el histórico de información funcionando como buffer o clases a priori de comportamiento.
 
 # Integración de Streamlit con Altair
 
-Se integra Streamlit al código del análisis EDA junto a la librería de Altair para integrar gráficos interactivos y poder hacer despliegues para compartir información y poder compartir los resultados del análisis de forma interactiva. Streamlit es un framework open-source que permite crear aplicaciones de forma sencilla y rápida.
+Se integra Streamlit al código del análisis EDA con la librería Altair para gráficos interactivos, con esto poder compartir los resultados del análisis de forma interactiva. Streamlit es un framework open-source que permite crear aplicaciones de forma sencilla y rápida.
 
 
 
