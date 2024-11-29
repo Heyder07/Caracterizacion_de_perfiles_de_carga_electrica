@@ -9,12 +9,10 @@ Se observa que existentes tendencias de comportamiento en el consumo diario entr
 
 # Integración de Streamlit con Altair
 
-Se integra Streamlit al código del análisis EDA con la librería Altair para gráficos interactivos, con esto poder compartir los resultados del análisis de forma interactiva. Streamlit es un framework open-source que permite crear aplicaciones de forma sencilla y rápida.
+Se integra Streamlit al código del análisis EDA con la librería Altair para gráficos interactivos, con esto podremos compartir los resultados del análisis de forma interactiva. Streamlit es un framework open-source que permite crear aplicaciones de forma sencilla y rápida.
 
 ![](results/Altair%20clusters/Altair_Cluster_7.png)
 Imagen que muestra la distribución de los datos del clúster 7 con Altair desde la aplicación de Streamlit.
-
-
 
 # Estructura de repositorio (Repository structure)
 
