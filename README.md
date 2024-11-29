@@ -11,6 +11,9 @@ Se observa que existentes tendencias de comportamiento en el consumo diario entr
 
 Se integra Streamlit al código del análisis EDA con la librería Altair para gráficos interactivos, con esto poder compartir los resultados del análisis de forma interactiva. Streamlit es un framework open-source que permite crear aplicaciones de forma sencilla y rápida.
 
+![](results/Altair%20clusters/Altair_Cluster_7.png)
+Imagen que muestra la distribución de los datos del clúster 7 con Altair desde la aplicación de Streamlit.
+
 
 
 # Estructura de repositorio (Repository structure)
@@ -24,27 +27,42 @@ La estructura que queremos que tenga este repositorio es la siguiente:
     ├── doc                                           <- Carpeta con el archivo markdown con el avance realizado sobre (i) la problemática, (ii) el objetivo y (iii) la justificación.   
     |   └── README.md                                 <- Descripción general de la tesis: (i) la problemática, (ii) el objetivo y (iii) la justificación.
     |  
-    ├── results                                       <- Carpeta con el archivo README.md sobre los resultados del análisis EDA realizado.
-    |   ├── BoxplotG1.png                             <- Imagen que muestra la dispersión del grupo 1.
-    |   ├── BoxplotG2.png                             <- Imagen que muestra la dispersión del grupo 2.
-    |   ├── Centroides.png                            <- Imagen que muestra la señal que resulta de agrupar los grupos.
-    |   ├── Cluster_1.png                             <- Imagen que muestra la distribución del clúster 1 con Matplotlib.
-    |   ├── Cluster_2.png                             <- Imagen que muestra la distribución del clúster 2 con Matplotlib.
-    |   ├── Cluster_3.png                             <- Imagen que muestra la distribución del clúster 3 con Matplotlib.
-    |   ├── Cluster_4.png                             <- Imagen que muestra la distribución del clúster 4 con Matplotlib.
-    |   ├── Cluster_5.png                             <- Imagen que muestra la distribución del clúster 5 con Matplotlib.
-    |   ├── Cluster_6.png                             <- Imagen que muestra la distribución del clúster 6 con Matplotlib.
-    |   ├── Cluster_7.png                             <- Imagen que muestra la distribución del clúster 7 con Matplotlib.
-    |   ├── Cluster_8.png                             <- Imagen que muestra la distribución del clúster 8 con Matplotlib.
-    |   ├── README.md                                 <- Resultados del análisis EDA realizado.
-    |   ├── Streamlit_Cluster_0.png                   <- Imagen que muestra la distribución del clúster 0 con Altair.
-    |   ├── Streamlit_Cluster_1.png                   <- Imagen que muestra la distribución del clúster 1 con Altair.
-    |   ├── Streamlit_Cluster_2.png                   <- Imagen que muestra la distribución del clúster 2 con Altair.
-    |   ├── Streamlit_Cluster_3.png                   <- Imagen que muestra la distribución del clúster 3 con Altair.
-    |   ├── Streamlit_Cluster_4.png                   <- Imagen que muestra la distribución del clúster 4 con Altair.
-    |   ├── Streamlit_Cluster_5.png                   <- Imagen que muestra la distribución del clúster 5 con Altair.
-    |   ├── Streamlit_Cluster_6.png                   <- Imagen que muestra la distribución del clúster 6 con Altair.                                     
-    |   └── Streamlit_Cluster_7.png                   <- Imagen que muestra la distribución del clúster 7 con Altair.
+    ├── results                                       <- Carpeta con el archivo README.md y los resultados del análisis EDA realizado.
+    |   ├── Altair clusters                           <- Carpeta con las gráficas resultantes realizadas con Altair.
+    |   |    ├── Streamlit_Cluster_0.png              <- Imagen que muestra la distribución del clúster 0 con Altair.
+    |   |    ├── Streamlit_Cluster_1.png              <- Imagen que muestra la distribución del clúster 1 con Altair.
+    |   |    ├── Streamlit_Cluster_2.png              <- Imagen que muestra la distribución del clúster 2 con Altair.
+    |   |    ├── Streamlit_Cluster_3.png              <- Imagen que muestra la distribución del clúster 3 con Altair.
+    |   |    ├── Streamlit_Cluster_4.png              <- Imagen que muestra la distribución del clúster 4 con Altair.
+    |   |    ├── Streamlit_Cluster_5.png              <- Imagen que muestra la distribución del clúster 5 con Altair.
+    |   |    ├── Streamlit_Cluster_6.png              <- Imagen que muestra la distribución del clúster 6 con Altair.
+    |   |    └── Streamlit_Cluster_7.png              <- Imagen que muestra la distribución del clúster 7 con Altair.
+    |   |  
+    |   ├── Boxplots                                  <- Carpeta con las gráficas resultantes de la dispersión de los grupos.    
+    |   |    ├── Boxplot1.png                         <- Imagen que muestra la variación del grupo 1.
+    |   |    ├── Boxplot2.png                         <- Imagen que muestra la variación del grupo 2.
+    |   |    ├── BoxplotG1.png                        <- Imagen que muestra la dispersión del grupo 1.
+    |   |    └── BoxplotG2.png                        <- Imagen que muestra la dispersión del grupo 2. 
+    |   |
+    |   ├── Matplotlib clusters                       <- Carpeta con las gráficas resultantes realizadas con Matplotlib. 
+    |   |    ├── Cluster_1.png                        <- Imagen que muestra la distribución del clúster 1 con Matplotlib.
+    |   |    ├── Cluster_2.png                        <- Imagen que muestra la distribución del clúster 2 con Matplotlib.
+    |   |    ├── Cluster_3.png                        <- Imagen que muestra la distribución del clúster 3 con Matplotlib.
+    |   |    ├── Cluster_4.png                        <- Imagen que muestra la distribución del clúster 4 con Matplotlib.
+    |   |    ├── Cluster_5.png                        <- Imagen que muestra la distribución del clúster 5 con Matplotlib.
+    |   |    ├── Cluster_6.png                        <- Imagen que muestra la distribución del clúster 6 con Matplotlib.
+    |   |    ├── Cluster_7.png                        <- Imagen que muestra la distribución del clúster 7 con Matplotlib.
+    |   |    └── Cluster_8.png                        <- Imagen que muestra la distribución del clúster 8 con Matplotlib.
+    |   |    
+    |   ├── Perfiles de carga electrica               <- Carpeta con las gráficas resultantes sobre el análisis descriptivo en el análisis EDA.
+    |   |    ├── BD.png                               <- Imagen que muestra los perfiles de carga eléctrica con relación de la base de datos.
+    |   |    ├── Centroides.png                       <- Imagen que muestra la señal que resulta de agrupar los grupos.
+    |   |    ├── Media.png                            <- Imagen que muestra la distribución de la media de los datos.
+    |   |    ├── Perfil_bus.png                       <- Imagen que muestra el perfil bus.
+    |   |    ├── Varianza.png                         <- Imagen que muestra la varianza de los datos.
+    |   |    └── Zscore.png                           <- Imagen que muestra la distribución de los valores Z score.
+    |   |    
+    |   └── README.md                                 <- Resultados del análisis EDA realizado.                                      
     |  
     ├── src                                           <- Carpeta con Jupyter notebook con el análisis EDA y Archivo README.md.
     |   ├── APP_Proyecto_EDA.py                       <- Aplicación Streamlit con Altair.
