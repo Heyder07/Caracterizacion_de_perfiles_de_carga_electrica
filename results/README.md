@@ -39,5 +39,5 @@ Se agregan los resultados de la integración de Streamlit y Altair con el análi
 
 | Perfiles de carga eléctrica |||
 |----------|----------|----------|
-| ![Imagen 1](./Perfiles%20carga%20electrica/BD.png) Perfiles de carga eléctrica con relación de la base de datos| ![Imagen 2](./Perfiles%20carga%20electrica/Centroides.png) Centroides | ![Imagen 3](./Perfiles%20carga%20electrica/Media.png) Distribución de la media de los datos|
-| ![Imagen 4](./Perfiles%20carga%20electrica/Perfil_bus.png) Perfil bus| ![Imagen 5](./Perfiles%20carga%20electrica/Varianza.png) Distribución de la varianza de los datos | ![Imagen 6](./Perfiles%20carga%20electrica/Zscore.png) Distribución de los valores Z score|
+| ![Imagen 1](./Perfiles%20de%20carga%20electrica/BD.png) Perfiles de carga eléctrica con relación de la base de datos| ![Imagen 2](./Perfiles%20de%20carga%20electrica/Centroides.png) Centroides | ![Imagen 3](./Perfiles%20de%20carga%20electrica/Media.png) Distribución de la media de los datos|
+| ![Imagen 4](./Perfiles%20de%20carga%20electrica/Perfil_bus.png) Perfil bus| ![Imagen 5](./Perfiles%20de%20carga%20electrica/Varianza.png) Distribución de la varianza de los datos | ![Imagen 6](./Perfiles%20de%20carga%20electrica/Zscore.png) Distribución de los valores Z score|
