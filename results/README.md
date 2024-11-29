@@ -15,7 +15,7 @@ En el gráfico final se observan los centroides de los clústeres encontrados, e
 
 Se agregan los resultados de la integración de Streamlit y Altair con el análisis EDA, para desplegar gráficos interactivos y hacer la difusión del proyecto. Esta integración permite comunicar los resultados desde un aplicativo web. Los gráficos interactivos agregados en la sección de resultados permiten realizar los clústeres formados y visualizar las señales eléctricas agrupadas con base en la información del dataframe.
 
-## Galeria de resultados
+## Galería de resultados
 
 | Altair clusters |||
 |----------|----------|----------|
